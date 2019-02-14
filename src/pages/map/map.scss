@@ -1,0 +1,64 @@
+page-map {
+
+  ion-scroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .buttons {
+    width: 100%;
+    padding: 10px;
+
+    button {
+      font-size: 22px;
+      height: 2.0em;
+      padding: 0 0.7em;
+    }
+
+    button:last-child {
+      float: right;
+    }
+  }
+
+  .map-container {
+    position: relative;
+    .points-container {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      i {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 26px;
+        height: 26px;
+        background-color: black;
+        color: #cf4734;
+        border-radius: 13px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+      }
+      i.disable {
+        opacity: 0.5;
+      }
+      .p1 { top: 84.9%;left: 47.8%; }
+      .p2 { top: 74.5%;left: 49.4%; }
+      .p3 { top: 45.8%;left: 34.7%; }
+      .p4 { top: 37.3%;left: 31.3%; }
+      .p5 { top: 28.6%;left: 32.2%; }
+      .p6 { top: 21.3%;left: 43%; }
+      .p7 { top: 12.4%;left: 43%; }
+      .p8 { top: 10%;left: 82.8%; }
+      .p9 { top: 12%;left: 60.6%; }
+      .p10 { top: 60%;left: 58.4%; }
+      .p11 { top: 40%;left: 57.2%; }
+      .p12 { top: 66.3%;left: 35%; }
+      .p13 { top: 56%;left: 49%; }
+    }
+  }
+  
+
+}

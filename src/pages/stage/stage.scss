@@ -1,0 +1,78 @@
+page-stage {
+
+  .scroll-content {
+    margin-bottom: 0 !important;
+  }
+
+  // ion-content.scrolling-disable .scroll-content {
+  //   overflow-y: hidden;
+  // }
+
+  ion-scroll {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slides {
+    height: auto;
+    .swiper-wrapper {
+      margin-bottom: 32px;
+      .slide-zoom {
+        position: relative;
+        video {
+          width: 100%;
+        }
+        .band {
+          position: absolute;
+          background-color: rgba(0, 0, 0, 0.8);
+          color: #fff;
+          width: 100%;
+          bottom: 0;
+          padding: 5px 0;
+        }
+        img {
+          display: inline-block;
+        }
+      }
+    }
+  }
+
+  .paragraphs {
+    margin: 0 10px;
+    p {
+      font-size: 15px;
+    }
+  }
+
+  .modalMask {
+    position: relative;
+    background-color: #000;
+    opacity: 0.5;
+    height: 100%;
+    z-index: 100;
+    animation-name: fadeIn;
+    animation-duration: 500ms;
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 0.5;}
+  }
+
+  ion-footer {
+    height: 140px;
+    background-image: url(../assets/images/caption_blur.png);
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 10px;
+    .button .button-inner {
+      color: #D64528;
+    }
+  }
+
+  .footer-md::before {
+    background-image: none !important;
+  }
+  
+}

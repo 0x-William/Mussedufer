@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" start>
+      <i class="icon ion-ios-gear"></i>
+    </button>
+    <ion-title>{{'home.title' | trans}}</ion-title>
+    <button ion-button menuToggle="right" end>
+      <i class="icon ion-navicon-round"></i>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+    <ion-slides pager>
+
+      <ion-slide>
+        <img src="./assets/images/consigne_5.png" />
+        <div>{{'home.caption5' | trans}}</div>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="./assets/images/consigne_1-3.gif" />
+        <div>{{'home.caption1' | trans}}</div>
+      </ion-slide>
+
+      <ion-slide *ngIf="isNotAndroid()">
+        <img src="./assets/images/consigne_2-2.gif" />
+        <div>{{'home.caption2' | trans}}</div>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="./assets/images/consigne_3-2.gif" />
+        <div>{{'home.caption3' | trans}}</div>
+      </ion-slide>
+
+      <ion-slide>
+        <img src="./assets/images/consigne_4.png" />
+        <div>{{'home.caption4' | trans}}</div>
+      </ion-slide>
+
+    </ion-slides>
+
+    <button ion-button (click)="gotoStage()">{{'home.button' | trans}}</button>  
+
+  </div> 
+</ion-content>

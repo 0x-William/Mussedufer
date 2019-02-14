@@ -1,0 +1,47 @@
+{
+    "home":{
+        "title": "Geführte Besichtigung",
+        "caption1": "Alle verfügbaren Bilder und Videos zu den verschiedenen Objekten sichten.",
+        "caption2": "Klicken Sie auf die Bilder, um sie zu vergrössern. Mit dem Zoom sehen Sie mehr Einzelheiten.",
+        "caption3": "Geniessen Sie die Audio-Kommentare auf Ihren Kopfhörern. Für Ihren Komfort und den andern Museumsbesuchern zuliebe.",
+        "caption4": "Behalten Sie Ihr Museums-App' aktiv; während Ihres ganzen Besuchs erhalten Sie Mitteilungen zu den verschiedenen Objekten.",
+        "caption5": "Aktivieren Sie Bluetooth auf Ihrem Smartphone um die Informationen über die Besuchsobjekte zu empfangen.",
+        "button": "Besuch starten"
+    },
+    "settings":{
+        "title": "Parameter",
+        "support": "HILFE",
+        "support1": "Sprache ändern",
+        "support2": "Alle Objekte aktivieren",
+        "support3": "App' neu starten",
+        "app": "APP",
+        "lastvisite": "Letzter Besuch",
+        "version": "Version",
+        "copyright": "2016 Eisen- und Eisenbahnmuseum"
+    },
+    "stage":{
+        "audio":{
+            "play": "Audio-Inhalt starten",
+            "stop": "Audio-Inhalt stoppen"
+        },
+        "readmore": "Mehr lesen"
+    },
+    "menu":{
+        "title": "Menu",
+        "stage": "Etappen"
+    },
+    "dialogs":{
+        "point": "Sie nähern sich einem Objekt!",
+        "add": "Dem Menu beifügen?",
+        "read": "Lesen",
+        "ok": "Ok",
+        "d1":{
+            "title": "Aktivierte Objekte",
+            "content": "Alle Objekte wurden aktiviert und sind jetzt im Menu verfügbar."
+        },
+        "d2":{
+            "title": "App' neu gestartet",
+            "content": "Es empfiehlt sich, das App' zu schliessen und neu zu starten, um alle seine Funktionen optimal auszunutzen."
+        }
+    }
+}

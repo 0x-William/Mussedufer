@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" start>
+      <i class="icon ion-ios-gear"></i>
+    </button>
+    <ion-title>{{stage.title}}</ion-title>
+    <button ion-button menuToggle="right" end>
+      <i class="icon ion-navicon-round"></i>
+    </button>
+  </ion-navbar>
+</ion-header>
+  
+<ion-content>
+  <ion-scroll scrollY="{{!isReadmore}}">
+    <ion-slides pager *ngIf="stage.tag.hasMedia">
+                
+      <ion-slide *ngFor="let video of stage.video">
+        <video controls="controls" preload="metadata" webkit-playsinline="webkit-playsinline" poster="./assets/{{stage.videocover}}">
+          <source src="{{ video | downloadAsset }}" type="video/mp4"/>
+        </video>  
+      </ion-slide>
+      
+      <ion-slide *ngFor="let image of stage.images">
+        <div class="band">{{ image.caption }}</div>
+        <img src="./assets/{{ image.src }}" imageViewer="./assets/{{ image.full }}" />
+      </ion-slide>
+
+    </ion-slides>
+
+    <audio-player *ngIf="stage.audio" src="{{stage.audio | downloadAsset}}" #audioPlayer></audio-player>
+    <audio-player *ngIf="hasClocheAudio" src="{{'audio/cloche.mp3' | downloadAsset}}" label="Son de cloche" #clocheAudioPlayer></audio-player>
+
+    <div [innerHTML]="stage.paragraphs" class="paragraphs"></div>
+
+  </ion-scroll>
+
+</ion-content>
+
+<div class="modalMask" *ngIf="contactModal"></div>
+
+<ion-footer *ngIf="isReadmore">
+    <button ion-button clear (click)="clickReadMore()">{{'stage.readmore' | trans}}</button>
+</ion-footer>

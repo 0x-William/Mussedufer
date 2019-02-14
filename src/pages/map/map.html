@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" start>
+      <i class="icon ion-ios-gear"></i>
+    </button>
+    <ion-title>Plan</ion-title>
+    <button ion-button menuToggle="right" end>
+      <i class="icon ion-navicon-round"></i>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-scroll scrollY="true">
+    <div class="buttons">
+      <button ion-button [disabled]="current == floors.length-1" (click)="up()">
+        <i class="icon ion-arrow-up-a"></i>
+      </button>
+      <button ion-button [disabled]="current == 0" (click)="down()">
+        <i class="icon ion-arrow-down-a"></i>
+      </button>
+    </div>
+    <div class="map-container">
+      <img src="{{ floors[current].img }}" />
+      <div class="points-container">
+        <i class="p{{id}} {{stageIsActive(id+1) ? '' : 'disable'}}" *ngFor="let id of floors[current].points">{{ id }}</i>
+      </div>
+    </div>
+  </ion-scroll> 
+</ion-content>

@@ -1,0 +1,47 @@
+{
+    "home":{
+        "title": "Guided visit",
+        "caption1": "Scroll through the images and videos at the different points of interaction.",
+        "caption2": "Click on the images to enlarge them. You can also get more detail by using the zoom.",
+        "caption3": "For your own comfort and that of the other visitors, please connect your earphones to have the benefit of the audio content.",
+        "caption4": "By keeping your application open throughout your visit, you will receive information about the points for interaction.",
+        "caption5": "Activate the Bluetooth of your smartphone to receive the notifications concerning the interaction points.",
+        "button": "Begin the visit"
+    },
+    "settings":{
+        "title": "Parameters",
+        "support": "SUPPORT",
+        "support1": "Change the language",
+        "support2": "Activate all points",
+        "support3": "Re-set the application",
+        "app": "APP",
+        "lastvisite": "Last visit",
+        "version": "Version",
+        "copyright": "2016 Iron and Railway Museum"
+    },
+    "stage":{
+        "audio":{
+            "play": "Start the audio content",
+            "stop": "Stop the audio content"
+        },
+        "readmore": "Read more"
+    },
+    "menu":{
+        "title": "Menu",
+        "stage": "Stages"
+    },
+    "dialogs":{
+        "point": "You are approaching a point!",
+        "add": "Add it to the menu?",
+        "read": "Read",
+        "ok": "Ok",
+        "d1":{
+            "title": "Points activated",
+            "content": "All the points have been activated and are now available in the menu."
+        },
+        "d2":{
+            "title": "Application re-set",
+            "content": "It is advisable to close and then re-open the application in order to take full advantage of all its functionalities."
+        }
+    }
+}

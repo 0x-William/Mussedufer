@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle="left" start>
+      <i class="icon ion-ios-gear"></i>
+    </button>
+    <ion-title>{{'settings.title' | trans}}</ion-title>
+    <button ion-button menuToggle="right" end>
+      <i class="icon ion-navicon-round"></i>
+    </button>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div class="header">
+    {{'settings.support' | trans}}
+  </div>
+  <a class="item" (click)="goToLanguage()">
+    <i class="icon ion-chatbubble"></i>
+    <div>{{'settings.support1' | trans}}</div>
+  </a>
+  <a class="item" (click)="activeAllStage()">
+    <i class="icon ion-wand"></i>
+    <div>{{'settings.support2' | trans}}</div>
+  </a>
+  <a class="item" (click)="resetApp()">
+    <i class="icon ion-ios-refresh"></i>
+    <div>{{'settings.support3' | trans}}</div>
+  </a>
+  <div class="header">
+    {{'settings.app' | trans}}
+  </div>
+  <div class="item" *ngIf="datevisite != ''">>
+    <i class="icon ion-calendar"></i>
+    <span>{{'settings.lastvisite' | trans}}</span>
+    <span class="item-note">{{ datevisite }}</span>
+  </div>
+  <div class="item">
+    <i class="icon ion-bug"></i>
+    <span>{{'settings.version' | trans}}</span>
+    <span class="item-note">2.0.0</span>
+  </div>
+  <div class="header copyright">
+    Copyright &#169; {{'settings.copyright' | trans}}
+  </div>
+</ion-content>

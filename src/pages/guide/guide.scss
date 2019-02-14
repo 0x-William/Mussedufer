@@ -1,0 +1,24 @@
+page-guide {
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    .slides {    
+      height: auto;
+      margin-bottom: 50px;
+      .swiper-wrapper {
+        margin-bottom: 32px;
+        .slide-zoom {
+          div {
+            padding: 0 15px;
+          }
+        }
+      }
+    }
+  }
+
+}

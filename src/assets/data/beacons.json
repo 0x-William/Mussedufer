@@ -1,0 +1,105 @@
+[{
+  "id":4,
+  "name":"ice01",
+  "uuid":"D99ED776-0780-4678-B4DE-F5E0DFD21720",
+  "threshold":8,
+  "stage":4,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":5,
+  "name":"mint01",
+  "uuid":"35A5E674-D52D-4545-AA54-1B911190B3CC",
+  "threshold":8,
+  "stage":3,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":6,
+  "name":"blueberry01",
+  "uuid":"C0AFFD28-0BB5-405D-979D-044BD72C3C29",
+  "threshold":8,
+  "stage":2,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":7,
+  "name":"ice02",
+  "uuid":"6FF2DDC4-DAEE-493A-9354-14F10700523B",
+  "threshold":8,
+  "stage":7,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":8,
+  "name":"mint02",
+  "uuid":"EE46666C-2EAC-4600-ACC9-1C64BD3BD451",
+  "threshold":8,
+  "stage":6,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":9,
+  "name":"blueberry02",
+  "uuid":"757219C8-122E-434A-9151-022291DDB0DB",
+  "threshold":8,
+  "stage":5,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":10,
+  "name":"ice03",
+  "uuid":"C87C58BE-D3ED-4F04-8227-228B5FE7CC58",
+  "threshold":8,
+  "stage":10,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":11,
+  "name":"mint03",
+  "uuid":"7287BF47-D832-48C6-BE1B-D2D4E54AB66D",
+  "threshold":8,
+  "stage":9,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":12,
+  "name":"blueberry03",
+  "uuid":"60FB6E11-BBF0-42E1-B757-B5513096820D",
+  "threshold":8,
+  "stage":8,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":13,
+  "name":"ice04",
+  "uuid":"3B656FCF-01A2-4F8F-A75C-ADE04EA6A3FF",
+  "threshold":8,
+  "stage":13,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":14,
+  "name":"mint04",
+  "uuid":"50D4F7D4-EF75-4631-9CCE-FDEC37EA112C",
+  "threshold":8,
+  "stage":12,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":15,
+  "name":"blueberry04",
+  "uuid":"1BA6633D-1241-485C-B2AA-A84FEBF30CDB",
+  "threshold":8,
+  "stage":11,
+  "threshold_apple":8,
+  "threshold_android":1.5
+},{
+  "id":17,
+  "name":"blueberry05",
+  "uuid":"CBC9B65B-12B9-4696-8C72-92A50DAF73AF",
+  "threshold":8,
+  "stage":14,
+  "threshold_apple":8,
+  "threshold_android":1.5
+}]

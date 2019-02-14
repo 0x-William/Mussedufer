@@ -1,0 +1,12 @@
+<div class="audio-ctrl" *ngIf="!audio">
+  <p *ngIf="label">{{label}}</p>
+  <audio controls preload>
+    <source src="{{ src }}" type="audio/mpeg">
+  </audio>
+</div>
+
+<div class="audio-ctrl" *ngIf="audio">
+  <p *ngIf="label">{{label}}</p>
+  <button ion-button (click)="play()"><i class="icon {{ getPlayIcon() }}"></i> {{ getPlayText() }}</button>
+  <button ion-button (click)="stop()"><i class="icon ion-stop"></i> Stop</button>
+</div>

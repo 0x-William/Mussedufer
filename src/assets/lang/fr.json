@@ -1,0 +1,47 @@
+{
+    "home":{
+        "title": "Visite guidée",
+        "caption1": "Faites défiler les images et vidéos présentes dans les différents points d'interaction.",
+        "caption2": "Cliquez sur les images pour les agrandir. Vous pourrez ainsi zoomer afin d'obtenir plus de détails.",
+        "caption3": "Pour votre propre confort et par respect des autres visiteurs, merci de brancher vos écouteurs pour profiter des contenus audio.",
+        "caption4": "En gardant votre application ouverte, vous recevrez tout au long de votre visite des notifications relatives aux points d'interaction.",
+        "caption5": "Activez le Bluetooth de votre téléphone pour recevoir les notifications relatives aux points d’interaction.",
+        "button": "Démarrer la visite"
+    },
+    "settings":{
+        "title": "Paramètres",
+        "support": "SUPPORT",
+        "support1": "Changer de langue",
+        "support2": "Activer tous les points",
+        "support3": "Réinitialiser l'application",
+        "app": "APP",
+        "lastvisite": "Dernière visite",
+        "version": "Version",
+        "copyright": "2016 Musée du fer et du chemin de fer"
+    },
+    "stage":{
+        "audio":{
+            "play": "Démarrer le contenu audio",
+            "stop": "Arrêter le contenu audio"
+        },
+        "readmore": "Lire plus"
+    },
+    "menu":{
+        "title": "Menu",
+        "stage": "Étapes"
+    },
+    "dialogs":{
+        "point": "Vous êtes proche d'un point!",
+        "add": "L'ajouter au menu ?",
+        "read": "Lire",
+        "ok": "Ok",
+        "d1":{
+            "title": "Points activés",
+            "content": "Tous les points ont été activés et sont maintenant disponibles dans le menu."
+        },
+        "d2":{
+            "title": "Application réinitialisée",
+            "content": "Il est recommandé de fermer et de ré-ouvrir l'application pour profiter pleinement du toutes ses fonctionnalités."
+        }
+    }
+}
